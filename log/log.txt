@@ -366,3 +366,27 @@ DETAIL:  Niepoprawne ograniczenia wiersza (null, 03c81eea-b828-42f1-8bd5-45f101a
 2019-01-31 21:20:35,187 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:20:35] "GET /login?next=%2F HTTP/1.1" 200 -
 2019-01-31 21:20:39,747 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:20:39] "POST /login HTTP/1.1" 302 -
 2019-01-31 21:20:39,792 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:20:39] "GET / HTTP/1.1" 200 -
+2019-01-31 21:21:50,598 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/install.py', reloading
+2019-01-31 21:21:50,642 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:21:51,029 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:21:51,029 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:38:02,305 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/install.py', reloading
+2019-01-31 21:38:02,348 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:38:02,740 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:38:02,741 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:38:34,138 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/install.py', reloading
+2019-01-31 21:38:34,182 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:38:34,573 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:38:34,573 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:38:43,217 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:38:43] "GET / HTTP/1.1" 302 -
+2019-01-31 21:38:43,253 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:38:43] "GET /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 21:38:48,943 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:38:48] "GET /install HTTP/1.1" 302 -
+2019-01-31 21:38:48,967 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:38:48] "GET / HTTP/1.1" 302 -
+2019-01-31 21:38:48,994 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:38:48] "GET /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 21:41:10,396 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/forms/__init__.py', reloading
+2019-01-31 21:41:10,440 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:48:53,277 - werkzeug - INFO -  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+2019-01-31 21:48:53,278 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:48:53,608 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:48:53,609 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:48:55,345 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:48:55] "GET /login?next=%2F HTTP/1.1" 200 -

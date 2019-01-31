@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-31 20:56+0100\n"
+"POT-Creation-Date: 2019-01-31 21:48+0100\n"
 "PO-Revision-Date: 2019-01-31 18:54+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -34,22 +34,26 @@ msgstr "Error 404"
 msgid "Not found!"
 msgstr "Not found!"
 
-#: app/controllers/install.py:19
+#: app/controllers/install.py:21
 msgid "Software was successfully installed!"
 msgstr "Software was successfully installed!"
 
-#: app/controllers/install.py:24
+#: app/controllers/install.py:26
 msgid "Failed to install software!"
 msgstr "Failed to install software!"
+
+#: app/forms/index.py:4 app/forms/index.py:5
+msgid "Search"
+msgstr "Search"
+
+#: app/forms/index.py:4 app/forms/install.py:4 app/forms/install.py:5
+#: app/forms/install.py:6 app/forms/install.py:7
+msgid "Field required"
+msgstr "Field required"
 
 #: app/forms/install.py:4
 msgid "App name"
 msgstr "Application name"
-
-#: app/forms/install.py:4 app/forms/install.py:5 app/forms/install.py:6
-#: app/forms/install.py:7
-msgid "Field required"
-msgstr "Field required"
 
 #: app/forms/install.py:5
 msgid "Administrative user name"
