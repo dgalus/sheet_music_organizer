@@ -143,3 +143,226 @@
 2019-01-31 19:18:15,586 - werkzeug - WARNING -  * Debugger is active!
 2019-01-31 19:18:15,587 - werkzeug - INFO -  * Debugger PIN: 143-215-283
 2019-01-31 19:18:21,940 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:18:21] "GET /login HTTP/1.1" 200 -
+2019-01-31 20:12:13,136 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/models/user.py', reloading
+2019-01-31 20:12:13,176 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 20:12:13,565 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 20:12:13,566 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 20:18:47,887 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/forms/__init__.py', reloading
+2019-01-31 20:18:47,933 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 20:25:13,256 - werkzeug - INFO -  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+2019-01-31 20:25:13,256 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 20:25:13,640 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 20:25:13,640 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 20:25:20,541 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:25:20] "GET /login HTTP/1.1" 200 -
+2019-01-31 20:25:25,451 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:25:25] "GET /install HTTP/1.1" 500 -
+2019-01-31 20:25:25,512 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:25:25] "GET /install?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-01-31 20:25:25,515 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:25:25] "GET /install?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-01-31 20:25:25,515 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:25:25] "GET /install?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-01-31 20:25:25,629 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:25:25] "GET /install?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-01-31 20:25:25,771 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:25:25] "GET /install?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-31 20:25:25,841 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:25:25] "GET /install?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-31 20:32:42,843 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:32:42] "GET /install HTTP/1.1" 200 -
+2019-01-31 20:33:22,053 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:33:22] "GET /install HTTP/1.1" 200 -
+2019-01-31 20:34:59,977 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:34:59] "GET /install HTTP/1.1" 200 -
+2019-01-31 20:42:13,155 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:42:13] "GET /install HTTP/1.1" 200 -
+2019-01-31 20:47:31,321 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/install.py', reloading
+2019-01-31 20:47:31,368 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 20:47:31,758 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 20:47:31,759 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 20:48:55,721 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/install.py', reloading
+2019-01-31 20:48:55,764 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 20:48:56,156 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 20:48:56,156 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 20:50:25,137 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/install.py', reloading
+2019-01-31 20:50:25,183 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 20:50:25,571 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 20:50:25,571 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 20:51:25,251 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/install.py', reloading
+2019-01-31 20:51:25,295 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 20:51:25,688 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 20:51:25,688 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 20:51:30,295 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:51:30] "GET /install HTTP/1.1" 200 -
+2019-01-31 20:51:31,680 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:51:31] "GET /install HTTP/1.1" 200 -
+2019-01-31 20:53:17,753 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:53:17] "GET /install HTTP/1.1" 200 -
+2019-01-31 20:53:17,800 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:53:17] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+2019-01-31 20:53:17,801 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:53:17] "GET /static/css/bulma.css HTTP/1.1" 200 -
+2019-01-31 20:53:17,945 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:53:17] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 20:54:57,705 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:54:57] "GET /install HTTP/1.1" 200 -
+2019-01-31 20:54:57,743 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:54:57] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+2019-01-31 20:54:57,745 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:54:57] "GET /static/css/bulma.css HTTP/1.1" 200 -
+2019-01-31 20:54:57,894 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:54:57] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 20:55:03,109 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:55:03] "GET /install HTTP/1.1" 200 -
+2019-01-31 20:55:49,599 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:55:49] "GET /install HTTP/1.1" 200 -
+2019-01-31 20:55:49,693 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:55:49] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 20:55:51,538 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:55:51] "GET /install HTTP/1.1" 200 -
+2019-01-31 20:55:51,587 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:55:51] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 -
+2019-01-31 20:55:51,590 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:55:51] "GET /static/css/bulma.css HTTP/1.1" 304 -
+2019-01-31 20:55:51,617 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:55:51] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 20:56:36,446 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:56:36] "GET /install HTTP/1.1" 200 -
+2019-01-31 20:56:37,081 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:56:37] "GET /install HTTP/1.1" 200 -
+2019-01-31 20:56:37,286 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:56:37] "GET /install HTTP/1.1" 200 -
+2019-01-31 20:56:37,458 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 20:56:37] "GET /install HTTP/1.1" 200 -
+2019-01-31 21:00:06,626 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/forms/install.py', reloading
+2019-01-31 21:00:06,670 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:00:31,711 - werkzeug - INFO -  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+2019-01-31 21:00:31,711 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:00:32,042 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:00:32,042 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:00:33,557 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:00:33] "GET /install HTTP/1.1" 200 -
+2019-01-31 21:01:07,439 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/forms/install.py', reloading
+2019-01-31 21:01:07,482 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:01:07,871 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:01:07,872 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:01:10,870 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:01:10] "GET /install HTTP/1.1" 200 -
+2019-01-31 21:01:59,769 - root - CRITICAL - Failed to install software.
+2019-01-31 21:01:59,769 - root - INFO - __init__() missing 1 required positional argument: 'is_admin'
+2019-01-31 21:01:59,772 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:01:59] "POST /install HTTP/1.1" 200 -
+2019-01-31 21:02:27,932 - root - CRITICAL - Failed to install software.
+2019-01-31 21:02:27,933 - root - INFO - __init__() missing 1 required positional argument: 'is_admin'
+2019-01-31 21:02:27,936 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:02:27] "POST /install HTTP/1.1" 200 -
+2019-01-31 21:03:08,274 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/install.py', reloading
+2019-01-31 21:03:08,318 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:03:08,696 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:03:08,697 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:03:26,369 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:03:26] "POST /install HTTP/1.1" 200 -
+2019-01-31 21:03:30,177 - root - CRITICAL - Failed to install software.
+2019-01-31 21:03:30,178 - root - INFO - __init__() missing 1 required positional argument: 'is_admin'
+2019-01-31 21:03:30,181 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:03:30] "POST /install HTTP/1.1" 200 -
+2019-01-31 21:03:33,467 - root - CRITICAL - Failed to install software.
+2019-01-31 21:03:33,467 - root - INFO - __init__() missing 1 required positional argument: 'is_admin'
+2019-01-31 21:03:33,470 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:03:33] "POST /install HTTP/1.1" 200 -
+2019-01-31 21:05:09,160 - root - CRITICAL - Failed to install software.
+2019-01-31 21:05:09,160 - root - INFO - __init__() missing 1 required positional argument: 'is_admin'
+2019-01-31 21:05:09,163 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:05:09] "POST /install HTTP/1.1" 200 -
+2019-01-31 21:05:47,513 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/install.py', reloading
+2019-01-31 21:05:47,558 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:05:47,949 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:05:47,950 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:05:51,230 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:05:51] "POST /install HTTP/1.1" 200 -
+2019-01-31 21:05:56,762 - root - CRITICAL - Failed to install software.
+2019-01-31 21:05:56,762 - root - INFO - __init__() missing 1 required positional argument: 'is_admin'
+2019-01-31 21:05:56,766 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:05:56] "POST /install HTTP/1.1" 200 -
+2019-01-31 21:06:28,442 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/install.py', reloading
+2019-01-31 21:06:28,487 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:06:28,877 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:06:28,877 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:06:35,117 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:06:35] "GET /install HTTP/1.1" 200 -
+2019-01-31 21:06:35,190 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:06:35] "GET /static/css/bulma.css HTTP/1.1" 304 -
+2019-01-31 21:06:35,191 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:06:35] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 -
+2019-01-31 21:06:35,214 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:06:35] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 21:06:40,575 - root - CRITICAL - Failed to install software.
+2019-01-31 21:06:40,575 - root - INFO - __init__() missing 1 required positional argument: 'is_admin'
+2019-01-31 21:06:40,578 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:06:40] "POST /install HTTP/1.1" 200 -
+2019-01-31 21:06:40,679 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:06:40] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 21:07:14,423 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/models/user.py', reloading
+2019-01-31 21:07:14,467 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:07:14,848 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:07:14,849 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:07:23,363 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:07:23] "POST /install HTTP/1.1" 200 -
+2019-01-31 21:07:23,429 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:07:23] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 -
+2019-01-31 21:07:23,431 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:07:23] "GET /static/css/bulma.css HTTP/1.1" 304 -
+2019-01-31 21:07:23,457 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:07:23] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 21:07:26,559 - root - CRITICAL - Failed to install software.
+2019-01-31 21:07:26,559 - root - INFO - (psycopg2.IntegrityError) BŁĄD:  pusta wartość w kolumnie "id" narusza ograniczenie wymaganej wartości
+DETAIL:  Niepoprawne ograniczenia wiersza (null, 624ce2fe-1ed8-49e0-ac37-a58f0b63cdec, admin, $2b$12$oopzwws7kvZVQ/t.4PG8XuOZLddeGEJ4j.zbH1/nKjk.v8HMnKaR., admin, t, t, null).
+ [SQL: 'INSERT INTO users (public_id, username, password, display_name, is_admin, is_active, token) VALUES (%(public_id)s, %(username)s, %(password)s, %(display_name)s, %(is_admin)s, %(is_active)s, %(token)s)'] [parameters: {'public_id': UUID('624ce2fe-1ed8-49e0-ac37-a58f0b63cdec'), 'username': Markup('admin'), 'password': '$2b$12$oopzwws7kvZVQ/t.4PG8XuOZLddeGEJ4j.zbH1/nKjk.v8HMnKaR.', 'display_name': Markup('admin'), 'is_admin': True, 'is_active': True, 'token': None}] (Background on this error at: http://sqlalche.me/e/gkpj)
+2019-01-31 21:07:26,562 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:07:26] "POST /install HTTP/1.1" 200 -
+2019-01-31 21:07:26,642 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:07:26] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 21:07:51,297 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/models/user.py', reloading
+2019-01-31 21:07:51,343 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:07:51,731 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:07:51,731 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:08:02,283 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:08:02] "POST /install HTTP/1.1" 200 -
+2019-01-31 21:08:06,450 - root - CRITICAL - Failed to install software.
+2019-01-31 21:08:06,450 - root - INFO - (psycopg2.IntegrityError) BŁĄD:  pusta wartość w kolumnie "id" narusza ograniczenie wymaganej wartości
+DETAIL:  Niepoprawne ograniczenia wiersza (null, 65e1c654-a281-40ff-9c51-68d06b0ae00e, admin, $2b$12$kpH0JadMdpfGlcQ7mvExPec0/20hNVr5ZoVHRw6zCrN4CYiendj9m, admin, t, t, null).
+ [SQL: 'INSERT INTO users (public_id, username, password, display_name, is_admin, is_active, token) VALUES (%(public_id)s, %(username)s, %(password)s, %(display_name)s, %(is_admin)s, %(is_active)s, %(token)s)'] [parameters: {'public_id': '65e1c654-a281-40ff-9c51-68d06b0ae00e', 'username': Markup('admin'), 'password': '$2b$12$kpH0JadMdpfGlcQ7mvExPec0/20hNVr5ZoVHRw6zCrN4CYiendj9m', 'display_name': Markup('admin'), 'is_admin': True, 'is_active': True, 'token': None}] (Background on this error at: http://sqlalche.me/e/gkpj)
+2019-01-31 21:08:06,452 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:08:06] "POST /install HTTP/1.1" 200 -
+2019-01-31 21:08:16,759 - werkzeug - INFO -  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+2019-01-31 21:08:16,759 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:08:17,085 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:08:17,086 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:08:21,523 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:08:21] "GET /install HTTP/1.1" 200 -
+2019-01-31 21:08:21,596 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:08:21] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 21:08:28,674 - root - CRITICAL - Failed to install software.
+2019-01-31 21:08:28,674 - root - INFO - (psycopg2.IntegrityError) BŁĄD:  pusta wartość w kolumnie "id" narusza ograniczenie wymaganej wartości
+DETAIL:  Niepoprawne ograniczenia wiersza (null, 02516ca8-728d-432b-94c2-c0ea1e02f435, admin, $2b$12$20ydrHXum0d3WXO51f.fz.x/D/IZjZj.zgpdejzM9SK436rHXob22, admin, t, t, null).
+ [SQL: 'INSERT INTO users (public_id, username, password, display_name, is_admin, is_active, token) VALUES (%(public_id)s, %(username)s, %(password)s, %(display_name)s, %(is_admin)s, %(is_active)s, %(token)s)'] [parameters: {'public_id': '02516ca8-728d-432b-94c2-c0ea1e02f435', 'username': Markup('admin'), 'password': '$2b$12$20ydrHXum0d3WXO51f.fz.x/D/IZjZj.zgpdejzM9SK436rHXob22', 'display_name': Markup('admin'), 'is_admin': True, 'is_active': True, 'token': None}] (Background on this error at: http://sqlalche.me/e/gkpj)
+2019-01-31 21:08:28,676 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:08:28] "POST /install HTTP/1.1" 200 -
+2019-01-31 21:08:28,765 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:08:28] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 21:09:24,877 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/models/user.py', reloading
+2019-01-31 21:09:24,921 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:09:25,304 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:09:25,304 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:09:37,420 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:09:37] "GET /install HTTP/1.1" 200 -
+2019-01-31 21:09:37,494 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:09:37] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 21:09:42,705 - root - CRITICAL - Failed to install software.
+2019-01-31 21:09:42,705 - root - INFO - (psycopg2.IntegrityError) BŁĄD:  pusta wartość w kolumnie "id" narusza ograniczenie wymaganej wartości
+DETAIL:  Niepoprawne ograniczenia wiersza (null, 03c81eea-b828-42f1-8bd5-45f101ae2300, admin, $2b$12$cQsvuED2jYe4IdJXnfo.me.PuGyut.ioQrKPLXULm/SpriXjW7zmm, admin, t, t, null).
+ [SQL: 'INSERT INTO users (public_id, username, password, display_name, is_admin, is_active, token) VALUES (%(public_id)s, %(username)s, %(password)s, %(display_name)s, %(is_admin)s, %(is_active)s, %(token)s) RETURNING users.id'] [parameters: {'public_id': '03c81eea-b828-42f1-8bd5-45f101ae2300', 'username': Markup('admin'), 'password': '$2b$12$cQsvuED2jYe4IdJXnfo.me.PuGyut.ioQrKPLXULm/SpriXjW7zmm', 'display_name': Markup('admin'), 'is_admin': True, 'is_active': True, 'token': None}] (Background on this error at: http://sqlalche.me/e/gkpj)
+2019-01-31 21:09:42,707 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:09:42] "POST /install HTTP/1.1" 200 -
+2019-01-31 21:09:42,789 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:09:42] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 21:10:44,487 - werkzeug - INFO -  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+2019-01-31 21:10:44,487 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:10:44,821 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:10:44,821 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:10:49,472 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:10:49] "GET /install HTTP/1.1" 200 -
+2019-01-31 21:10:54,132 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:10:54] "POST /install HTTP/1.1" 302 -
+2019-01-31 21:10:54,164 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:10:54] "GET / HTTP/1.1" 302 -
+2019-01-31 21:10:54,216 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:10:54] "GET /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 21:16:50,124 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:16:50] "POST /login HTTP/1.1" 500 -
+2019-01-31 21:16:50,162 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:16:50] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-01-31 21:16:50,166 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:16:50] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-01-31 21:16:50,166 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:16:50] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-01-31 21:16:50,309 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:16:50] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-01-31 21:16:50,428 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:16:50] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-31 21:16:50,496 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:16:50] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-31 21:17:12,232 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/user.py', reloading
+2019-01-31 21:17:12,280 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:17:12,667 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:17:12,667 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:17:25,830 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/user.py', reloading
+2019-01-31 21:17:25,873 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:17:26,257 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:17:26,258 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:17:33,892 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:17:33] "POST /login HTTP/1.1" 500 -
+2019-01-31 21:17:33,942 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:17:33] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-01-31 21:17:33,944 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:17:33] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-01-31 21:17:33,945 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:17:33] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-01-31 21:17:34,068 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:17:34] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-01-31 21:17:34,114 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:17:34] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-31 21:17:34,161 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:17:34] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-31 21:18:48,212 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/utils/__init__.py', reloading
+2019-01-31 21:18:48,257 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:18:48,639 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:18:48,639 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:18:54,163 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:18:54] "POST /login HTTP/1.1" 500 -
+2019-01-31 21:18:54,244 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:18:54] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-01-31 21:18:54,244 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:18:54] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-01-31 21:18:54,250 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:18:54] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-01-31 21:18:54,365 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:18:54] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-01-31 21:18:54,408 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:18:54] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-31 21:18:54,452 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:18:54] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-31 21:19:37,225 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/user.py', reloading
+2019-01-31 21:19:37,272 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:19:37,652 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:19:37,653 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:20:05,452 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:20:05] "POST /login HTTP/1.1" 500 -
+2019-01-31 21:20:05,501 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:20:05] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-01-31 21:20:05,502 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:20:05] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-01-31 21:20:05,503 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:20:05] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-01-31 21:20:05,626 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:20:05] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-01-31 21:20:05,674 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:20:05] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-31 21:20:05,716 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:20:05] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-31 21:20:17,112 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/user.py', reloading
+2019-01-31 21:20:17,160 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:20:17,544 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:20:17,545 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:20:21,808 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:20:21] "POST /login HTTP/1.1" 302 -
+2019-01-31 21:20:21,832 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:20:21] "GET / HTTP/1.1" 200 -
+2019-01-31 21:20:29,172 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:20:29] "GET /logout HTTP/1.1" 200 -
+2019-01-31 21:20:32,066 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:20:32] "GET /logout HTTP/1.1" 200 -
+2019-01-31 21:20:35,162 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:20:35] "GET / HTTP/1.1" 302 -
+2019-01-31 21:20:35,187 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:20:35] "GET /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 21:20:39,747 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:20:39] "POST /login HTTP/1.1" 302 -
+2019-01-31 21:20:39,792 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:20:39] "GET / HTTP/1.1" 200 -

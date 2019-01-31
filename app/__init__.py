@@ -1,7 +1,7 @@
 from flask import Flask, Response, redirect, url_for, request, session, abort, render_template, send_file, escape, flash
 from flask_login import LoginManager, UserMixin, login_required, login_user, logout_user, current_user
 from flask_wtf import FlaskForm
-from flask_babel import Babel, gettext
+from flask_babel import Babel, gettext, lazy_gettext
 from wtforms import StringField, PasswordField, SubmitField, BooleanField, FileField, SelectField
 from wtforms.validators import DataRequired, InputRequired, Length, URL, NumberRange, ValidationError, EqualTo
 from flask_sqlalchemy import SQLAlchemy

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-31 19:09+0100\n"
+"POT-Creation-Date: 2019-01-31 20:56+0100\n"
 "PO-Revision-Date: 2019-01-31 18:54+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -33,6 +33,47 @@ msgstr "Error 404"
 #: app/controllers/error.py:18
 msgid "Not found!"
 msgstr "Not found!"
+
+#: app/controllers/install.py:19
+msgid "Software was successfully installed!"
+msgstr "Software was successfully installed!"
+
+#: app/controllers/install.py:24
+msgid "Failed to install software!"
+msgstr "Failed to install software!"
+
+#: app/forms/install.py:4
+msgid "App name"
+msgstr "Application name"
+
+#: app/forms/install.py:4 app/forms/install.py:5 app/forms/install.py:6
+#: app/forms/install.py:7
+msgid "Field required"
+msgstr "Field required"
+
+#: app/forms/install.py:5
+msgid "Administrative user name"
+msgstr "Administrative user name"
+
+#: app/forms/install.py:6
+msgid "Administrative user password"
+msgstr "Administrative user password"
+
+#: app/forms/install.py:6
+msgid "Password doesn't match!"
+msgstr "Password doesn't match!"
+
+#: app/forms/install.py:7
+msgid "Administrative user password confirmation"
+msgstr "Administrative user password confirmation"
+
+#: app/forms/install.py:8
+msgid "Save"
+msgstr "Save"
+
+#: app/templates/install/install.html:25
+msgid "Installation"
+msgstr "Installation"
 
 #: app/templates/user/login.html:21
 msgid "Username"

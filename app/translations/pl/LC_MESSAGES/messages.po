@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-31 19:09+0100\n"
+"POT-Creation-Date: 2019-01-31 20:56+0100\n"
 "PO-Revision-Date: 2019-01-31 18:53+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: pl\n"
@@ -34,6 +34,47 @@ msgstr "Błąd 404"
 #: app/controllers/error.py:18
 msgid "Not found!"
 msgstr "Nie znaleziono strony!"
+
+#: app/controllers/install.py:19
+msgid "Software was successfully installed!"
+msgstr "Pomyślnie zainstalowano oprogramowanie!"
+
+#: app/controllers/install.py:24
+msgid "Failed to install software!"
+msgstr "Instalacja oprogramowania się nie powiodła!"
+
+#: app/forms/install.py:4
+msgid "App name"
+msgstr "Nazwa aplikacji"
+
+#: app/forms/install.py:4 app/forms/install.py:5 app/forms/install.py:6
+#: app/forms/install.py:7
+msgid "Field required"
+msgstr "Pole wymagane"
+
+#: app/forms/install.py:5
+msgid "Administrative user name"
+msgstr "Nazwa użytkownika administracyjnego"
+
+#: app/forms/install.py:6
+msgid "Administrative user password"
+msgstr "Hasło użytkownika administracyjnego"
+
+#: app/forms/install.py:6
+msgid "Password doesn't match!"
+msgstr "Hasła się różnią!"
+
+#: app/forms/install.py:7
+msgid "Administrative user password confirmation"
+msgstr "Potwierdzenie hasła użytkownika administracyjnego"
+
+#: app/forms/install.py:8
+msgid "Save"
+msgstr "Zapisz"
+
+#: app/templates/install/install.html:25
+msgid "Installation"
+msgstr "Instalacja"
 
 #: app/templates/user/login.html:21
 msgid "Username"

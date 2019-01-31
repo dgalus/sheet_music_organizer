@@ -3,9 +3,9 @@ from .. import *
 @app.route("/login", methods=['GET', 'POST'])
 def login():
     if request.method == 'POST':
-        username = request.form['username']
-        password = request.form['password']
-        user = User.query.filter(User.name == username).first()
+        username = escape(request.form['username'])
+        password = escape(request.form['password'])
+        user = User.query.filter(User.username == username).first()
         if user is not None:
             if bc.check_password_hash(user.password, password):
                 exists = False
@@ -13,7 +13,7 @@ def login():
                     if u.id == user.id:
                         exists = True
                         break
-                us = UserLogin(user.id, user.name, user.display_name, [])
+                us = UserLogin(user.id, user.username, user.display_name)
                 if not exists:
                     users.append(us)
                 login_user(us, force=True)

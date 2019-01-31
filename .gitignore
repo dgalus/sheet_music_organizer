@@ -105,3 +105,4 @@ venv.bak/
 
 # logs
 log/log.txt
+app/config/app.json
