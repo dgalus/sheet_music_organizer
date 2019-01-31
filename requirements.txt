@@ -3,6 +3,7 @@ flask-sqlalchemy
 flask-wtf
 flask-login
 flask_restful
+Flask-Babel
 psycopg2-binary
 bcrypt
 flask-bcrypt

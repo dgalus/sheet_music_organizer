@@ -53,3 +53,60 @@
 2019-01-31 18:08:41,311 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:08:41] "GET /login HTTP/1.1" 200 -
 2019-01-31 18:08:57,894 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:08:57] "GET /login HTTP/1.1" 200 -
 2019-01-31 18:09:29,877 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:09:29] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:30:11,336 - werkzeug - INFO -  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+2019-01-31 18:30:11,337 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 18:30:11,716 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 18:30:11,717 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 18:30:19,293 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:30:19] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:30:58,525 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:30:58] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:31:22,089 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:31:22] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:31:22,899 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:31:22] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:31:23,255 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:31:23] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:31:23,421 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:31:23] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:31:23,573 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:31:23] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:31:23,754 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:31:23] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:31:23,903 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:31:23] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:31:24,058 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:31:24] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:31:24,215 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:31:24] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:31:24,364 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:31:24] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:31:26,532 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:31:26] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:31:27,449 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:31:27] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:39:17,772 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/config.py', reloading
+2019-01-31 18:39:17,818 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 18:39:18,204 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 18:39:18,205 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 18:39:46,494 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/__init__.py', reloading
+2019-01-31 18:39:46,540 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 18:39:46,923 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 18:39:46,923 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 18:55:15,901 - werkzeug - INFO -  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+2019-01-31 18:55:15,901 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 18:55:16,280 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 18:55:16,280 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 18:55:22,715 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:55:22] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:55:23,484 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:55:23] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:55:24,029 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:55:24] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:55:32,150 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:55:32] "GET /static/css/bulma.css.map HTTP/1.1" 200 -
+2019-01-31 18:55:36,410 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:55:36] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:56:11,411 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:56:11] "GET / HTTP/1.1" 404 -
+2019-01-31 18:56:11,511 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:56:11] "GET /static/css/font-awesome.min.css HTTP/1.1" 200 -
+2019-01-31 18:56:11,523 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:56:11] "GET /static/css/bulma.css HTTP/1.1" 200 -
+2019-01-31 18:56:11,538 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:56:11] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 18:56:16,498 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:56:16] "GET /login HTTP/1.1" 200 -
+2019-01-31 18:56:16,575 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 18:56:16] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 19:02:24,642 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:02:24] "GET /login HTTP/1.1" 200 -
+2019-01-31 19:02:25,566 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:02:25] "GET /login HTTP/1.1" 200 -
+2019-01-31 19:03:19,550 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:03:19] "GET /login HTTP/1.1" 200 -
+2019-01-31 19:03:26,021 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:03:26] "GET /login HTTP/1.1" 200 -
+2019-01-31 19:03:29,964 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:03:29] "GET /login HTTP/1.1" 200 -
+2019-01-31 19:03:30,036 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:03:30] "GET /static/css/bulma.css HTTP/1.1" 304 -
+2019-01-31 19:03:30,037 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:03:30] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 -
+2019-01-31 19:03:30,062 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:03:30] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 19:03:30,701 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:03:30] "GET /login HTTP/1.1" 200 -
+2019-01-31 19:03:30,768 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:03:30] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 -
+2019-01-31 19:03:30,768 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:03:30] "GET /static/css/bulma.css HTTP/1.1" 304 -
+2019-01-31 19:03:30,787 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:03:30] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 19:03:30,979 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:03:30] "GET /login HTTP/1.1" 200 -
+2019-01-31 19:03:31,036 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:03:31] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 -
+2019-01-31 19:03:31,036 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:03:31] "GET /static/css/bulma.css HTTP/1.1" 304 -
+2019-01-31 19:03:31,053 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:03:31] "GET /favicon.ico HTTP/1.1" 404 -

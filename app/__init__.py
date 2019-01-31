@@ -1,6 +1,7 @@
 from flask import Flask, Response, redirect, url_for, request, session, abort, render_template, send_file, escape, flash
 from flask_login import LoginManager, UserMixin, login_required, login_user, logout_user, current_user
 from flask_wtf import FlaskForm
+from flask_babel import Babel, gettext
 from wtforms import StringField, PasswordField, SubmitField, BooleanField, FileField, SelectField
 from wtforms.validators import DataRequired, InputRequired, Length, URL, NumberRange, ValidationError, EqualTo
 from flask_sqlalchemy import SQLAlchemy
@@ -17,11 +18,16 @@ import yaml
 
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'bmp', 'tiff', 'tif', 'gif', 'pdf', 'doc', 'docx'])
 
-SLIDE_UPLOAD_PATH = "app/static/files/"
+UPLOAD_PATH = "app/static/files/"
 
 app = Flask(__name__)
-app.config.from_object('config')
+babel = Babel(app)
 bc = Bcrypt(app)
+app.config.from_object('config')
+
+@babel.localeselector
+def get_locale():
+    return request.accept_languages.best_match(app.config['LANGUAGES'].keys())
 
 logging.config.dictConfig(yaml.load(open('app/config/logging.conf')))
 

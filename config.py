@@ -14,3 +14,8 @@ CSRF_ENABLED = True
 CSRF_SESSION_KEY = ''.join(random.SystemRandom().choice(string.ascii_uppercase + string.digits) for _ in range(64))
 
 SECRET_KEY = ''.join(random.SystemRandom().choice(string.ascii_uppercase + string.digits) for _ in range(64))
+
+LANGUAGES = {
+    'en': 'English',
+    'pl': 'Polski'
+}
