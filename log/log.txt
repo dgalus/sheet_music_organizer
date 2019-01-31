@@ -131,3 +131,15 @@
 2019-01-31 19:09:32,838 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:09:32] "GET /favicon.ico HTTP/1.1" 404 -
 2019-01-31 19:09:36,184 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:09:36] "GET /favicon.ico HTTP/1.1" 404 -
 2019-01-31 19:09:39,429 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:09:39] "GET /login HTTP/1.1" 200 -
+2019-01-31 19:13:51,542 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/__init__.py', reloading
+2019-01-31 19:13:51,586 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 19:13:51,962 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 19:13:51,963 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 19:14:00,550 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:14:00] "GET / HTTP/1.1" 302 -
+2019-01-31 19:14:00,597 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:14:00] "GET /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 19:14:00,700 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:14:00] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 19:18:14,936 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/models/__init__.py', reloading
+2019-01-31 19:18:14,982 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 19:18:15,586 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 19:18:15,587 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 19:18:21,940 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:18:21] "GET /login HTTP/1.1" 200 -
