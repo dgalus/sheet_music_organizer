@@ -2,9 +2,10 @@ from .. import *
 
 @app.route("/login", methods=['GET', 'POST'])
 def login():
-    if request.method == 'POST':
-        username = escape(request.form['username'])
-        password = escape(request.form['password'])
+    form = LoginForm()
+    if form.validate_on_submit():
+        username = escape(form.user.data)
+        password = escape(form.user.password)
         user = User.query.filter(User.username == username).first()
         if user is not None:
             if bc.check_password_hash(user.password, password):
@@ -18,10 +19,10 @@ def login():
                     users.append(us)
                 login_user(us, force=True)
                 return redirect("/")
-            return render_template('user/login.html')
-        return render_template('user/login.html')
+            return render_template('user/login.html', form=form)
+        return render_template('user/login.html', form=form)
     else:
-        return render_template('user/login.html')
+        return render_template('user/login.html', form=form)
 
 @app.route('/logout')
 def logout():

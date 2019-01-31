@@ -19,6 +19,8 @@ def install():
             with open('app/config/app.json', 'w') as outfile:
                 json.dump(config, outfile)
             flash(gettext("Software was successfully installed!"), "is-success")
+            logging.info("Software was successfully installed!")
+            logging.info("User " + user + " was successfully created!")
             return redirect('/')
         except Exception as e:
             logging.critical("Failed to install software.")

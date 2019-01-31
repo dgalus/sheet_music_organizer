@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-31 21:48+0100\n"
+"POT-Creation-Date: 2019-01-31 22:01+0100\n"
 "PO-Revision-Date: 2019-01-31 18:54+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -38,7 +38,7 @@ msgstr "Not found!"
 msgid "Software was successfully installed!"
 msgstr "Software was successfully installed!"
 
-#: app/controllers/install.py:26
+#: app/controllers/install.py:28
 msgid "Failed to install software!"
 msgstr "Failed to install software!"
 
@@ -47,7 +47,8 @@ msgid "Search"
 msgstr "Search"
 
 #: app/forms/index.py:4 app/forms/install.py:4 app/forms/install.py:5
-#: app/forms/install.py:6 app/forms/install.py:7
+#: app/forms/install.py:6 app/forms/install.py:7 app/forms/user.py:4
+#: app/forms/user.py:5
 msgid "Field required"
 msgstr "Field required"
 
@@ -75,19 +76,19 @@ msgstr "Administrative user password confirmation"
 msgid "Save"
 msgstr "Save"
 
-#: app/templates/install/install.html:25
-msgid "Installation"
-msgstr "Installation"
-
-#: app/templates/user/login.html:21
+#: app/forms/user.py:4 app/templates/user/login.html:21
 msgid "Username"
 msgstr "Username"
 
-#: app/templates/user/login.html:26
+#: app/forms/user.py:5 app/templates/user/login.html:26
 msgid "Password"
 msgstr "Password"
 
-#: app/templates/user/login.html:30
+#: app/forms/user.py:6 app/templates/user/login.html:30
 msgid "Login"
 msgstr "Login"
+
+#: app/templates/install/install.html:25
+msgid "Installation"
+msgstr "Installation"
 

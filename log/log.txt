@@ -390,3 +390,39 @@ DETAIL:  Niepoprawne ograniczenia wiersza (null, 03c81eea-b828-42f1-8bd5-45f101a
 2019-01-31 21:48:53,608 - werkzeug - WARNING -  * Debugger is active!
 2019-01-31 21:48:53,609 - werkzeug - INFO -  * Debugger PIN: 143-215-283
 2019-01-31 21:48:55,345 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:48:55] "GET /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 21:53:37,994 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:53:37] "POST /login HTTP/1.1" 302 -
+2019-01-31 21:53:38,021 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 21:53:38] "GET / HTTP/1.1" 200 -
+2019-01-31 21:58:25,084 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/user.py', reloading
+2019-01-31 21:58:25,130 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:58:25,520 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:58:25,520 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:58:36,661 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/forms/__init__.py', reloading
+2019-01-31 21:58:36,704 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:58:37,086 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:58:37,086 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:58:57,313 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/user.py', reloading
+2019-01-31 21:58:57,356 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:58:57,746 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:58:57,746 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:59:09,902 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/user.py', reloading
+2019-01-31 21:59:09,945 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:59:10,336 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:59:10,336 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 21:59:39,684 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/user.py', reloading
+2019-01-31 21:59:39,731 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 21:59:40,119 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 21:59:40,120 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 22:00:45,917 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/install.py', reloading
+2019-01-31 22:00:45,961 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 22:00:46,350 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 22:00:46,350 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 22:04:31,316 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:04:31] "GET / HTTP/1.1" 302 -
+2019-01-31 22:04:31,359 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:04:31] "GET /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 22:04:59,659 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:04:59] "GET /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 22:05:10,915 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:05:10] "GET /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 22:05:36,775 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:05:36] "GET /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 22:05:42,804 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:05:42] "GET /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 22:05:55,584 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:05:55] "GET /install HTTP/1.1" 302 -
+2019-01-31 22:05:55,620 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:05:55] "GET / HTTP/1.1" 302 -
+2019-01-31 22:05:55,643 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:05:55] "GET /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 22:05:55,731 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:05:55] "GET /favicon.ico HTTP/1.1" 404 -
