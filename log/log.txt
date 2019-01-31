@@ -110,3 +110,24 @@
 2019-01-31 19:03:31,036 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:03:31] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 -
 2019-01-31 19:03:31,036 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:03:31] "GET /static/css/bulma.css HTTP/1.1" 304 -
 2019-01-31 19:03:31,053 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:03:31] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 19:04:57,681 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/__init__.py', reloading
+2019-01-31 19:04:57,726 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 19:07:22,993 - werkzeug - INFO -  * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+2019-01-31 19:07:22,994 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 19:07:23,374 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 19:07:23,374 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 19:07:24,500 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:07:24] "GET /login HTTP/1.1" 200 -
+2019-01-31 19:07:29,104 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:07:29] "GET /gfdfdgdf HTTP/1.1" 404 -
+2019-01-31 19:07:58,773 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/error.py', reloading
+2019-01-31 19:07:58,816 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 19:07:59,194 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 19:07:59,195 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 19:08:23,464 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/error.py', reloading
+2019-01-31 19:08:23,506 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 19:08:23,884 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 19:08:23,884 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 19:09:26,956 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:09:26] "GET /gfdfdgdf HTTP/1.1" 404 -
+2019-01-31 19:09:32,750 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:09:32] "GET /loggj HTTP/1.1" 404 -
+2019-01-31 19:09:32,838 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:09:32] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 19:09:36,184 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:09:36] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 19:09:39,429 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 19:09:39] "GET /login HTTP/1.1" 200 -
