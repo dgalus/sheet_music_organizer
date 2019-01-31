@@ -3,6 +3,7 @@ from .. import *
 @app.route("/login", methods=['GET', 'POST'])
 def login():
     form = LoginForm()
+    title = json.load(open("app/config/app.json"))["app_name"] or "Sheet music organizer"
     if form.validate_on_submit():
         username = escape(form.user.data)
         password = escape(form.user.password)
@@ -19,10 +20,10 @@ def login():
                     users.append(us)
                 login_user(us, force=True)
                 return redirect("/")
-            return render_template('user/login.html', form=form)
-        return render_template('user/login.html', form=form)
+            return render_template('user/login.html', form=form, title=title)
+        return render_template('user/login.html', form=form, title=title)
     else:
-        return render_template('user/login.html', form=form)
+        return render_template('user/login.html', form=form, title=title)
 
 @app.route('/logout')
 def logout():
