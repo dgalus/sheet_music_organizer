@@ -1,1 +1,11 @@
 flask
+flask-sqlalchemy
+flask-wtf
+flask-login
+flask_restful
+psycopg2-binary
+bcrypt
+flask-bcrypt
+wtforms
+pyyaml
+unidecode
