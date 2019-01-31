@@ -14,22 +14,20 @@
             <div class="container">
             <div class="navbar-brand">
                 <div class="navbar-item ">
-                <h6 class="subtitle">{% block title %}{% endblock %}</h6>
+                <h6 class="subtitle">{{ title }}</h6>
                 </div>
             </div>
             </div>
         </nav>
     </div>
 
-
-    <section class="hero is-primary">
+    <section class="hero is-info">
       <div class="hero-body">
         <div class="container">
-
+          <h1 class="title">{% block title %}{% endblock %}</h1>
         </div>
       </div>
     </section>
-
 
     <section class="section">
       <div class="container">

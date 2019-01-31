@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-31 22:01+0100\n"
+"POT-Creation-Date: 2019-01-31 23:57+0100\n"
 "PO-Revision-Date: 2019-01-31 18:54+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -76,17 +76,37 @@ msgstr "Administrative user password confirmation"
 msgid "Save"
 msgstr "Save"
 
-#: app/forms/user.py:4 app/templates/user/login.html:21
+#: app/forms/user.py:4
 msgid "Username"
 msgstr "Username"
 
-#: app/forms/user.py:5 app/templates/user/login.html:26
+#: app/forms/user.py:5
 msgid "Password"
 msgstr "Password"
 
-#: app/forms/user.py:6 app/templates/user/login.html:30
+#: app/forms/user.py:6
 msgid "Login"
 msgstr "Login"
+
+#: app/templates/index/search.html:2
+msgid "Search music sheets"
+msgstr "Search music sheets"
+
+#: app/templates/index/search.html:14
+msgid "Search by title"
+msgstr "Search by title"
+
+#: app/templates/index/search.html:24
+msgid "Search by category"
+msgstr "Search by category"
+
+#: app/templates/index/search.html:36
+msgid "Search by instrument"
+msgstr "Search by instrument"
+
+#: app/templates/index/search.html:46
+msgid "Advanced search"
+msgstr "Advanced search"
 
 #: app/templates/install/install.html:25
 msgid "Installation"

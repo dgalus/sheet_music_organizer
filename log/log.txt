@@ -443,3 +443,210 @@ DETAIL:  Niepoprawne ograniczenia wiersza (null, 03c81eea-b828-42f1-8bd5-45f101a
 2019-01-31 22:10:22,262 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:10:22] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 -
 2019-01-31 22:10:22,262 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:10:22] "GET /static/css/bulma.css HTTP/1.1" 304 -
 2019-01-31 22:10:22,283 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:10:22] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 22:25:19,316 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/index.py', reloading
+2019-01-31 22:25:19,358 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 22:25:19,742 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 22:25:19,743 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 22:25:28,772 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:25:28] "POST /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 22:25:32,334 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:25:32] "POST /login?next=%2F HTTP/1.1" 500 -
+2019-01-31 22:25:32,374 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:25:32] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-01-31 22:25:32,377 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:25:32] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-01-31 22:25:32,377 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:25:32] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-01-31 22:25:32,493 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:25:32] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-01-31 22:25:32,626 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:25:32] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-31 22:25:32,703 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:25:32] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-31 22:25:55,131 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/user.py', reloading
+2019-01-31 22:25:55,178 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 22:25:55,562 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 22:25:55,563 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 22:26:01,365 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:26:01] "POST /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 22:26:04,254 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:26:04] "POST /login?next=%2F HTTP/1.1" 302 -
+2019-01-31 22:26:04,297 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:26:04] "GET / HTTP/1.1" 500 -
+2019-01-31 22:26:04,340 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:26:04] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-01-31 22:26:04,342 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:26:04] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-01-31 22:26:04,345 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:26:04] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-01-31 22:26:04,455 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:26:04] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-01-31 22:26:04,500 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:26:04] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-31 22:26:04,550 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:26:04] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-31 22:26:12,766 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/index.py', reloading
+2019-01-31 22:26:12,812 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 22:26:13,203 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 22:26:13,203 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 22:26:14,170 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:26:14] "GET / HTTP/1.1" 302 -
+2019-01-31 22:26:14,211 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:26:14] "GET /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 22:26:17,883 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:26:17] "POST /login?next=%2F HTTP/1.1" 302 -
+2019-01-31 22:26:17,922 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:26:17] "GET / HTTP/1.1" 200 -
+2019-01-31 22:26:18,067 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:26:18] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:26:18,123 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:26:18] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:26:18,132 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:26:18] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:30:23,307 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:30:23] "GET / HTTP/1.1" 200 -
+2019-01-31 22:30:23,455 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:30:23] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:30:23,466 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:30:23] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:30:23,477 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:30:23] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:31:29,044 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:31:29] "GET / HTTP/1.1" 200 -
+2019-01-31 22:31:29,220 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:31:29] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:31:29,234 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:31:29] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:31:29,245 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:31:29] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:31:35,224 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:31:35] "GET / HTTP/1.1" 200 -
+2019-01-31 22:31:35,369 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:31:35] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:31:35,378 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:31:35] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:31:35,386 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:31:35] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:37:08,365 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/__init__.py', reloading
+2019-01-31 22:37:08,414 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 22:37:08,786 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 22:37:08,786 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 22:37:54,959 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:37:54] "GET / HTTP/1.1" 302 -
+2019-01-31 22:37:55,002 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:37:55] "GET /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 22:37:58,710 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:37:58] "POST /login?next=%2F HTTP/1.1" 302 -
+2019-01-31 22:37:58,752 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:37:58] "GET / HTTP/1.1" 200 -
+2019-01-31 22:37:58,893 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:37:58] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:37:58,901 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:37:58] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:37:58,909 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:37:58] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:38:10,504 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/index.py', reloading
+2019-01-31 22:38:10,549 - werkzeug - INFO -  * Restarting with stat
+2019-01-31 22:38:10,942 - werkzeug - WARNING -  * Debugger is active!
+2019-01-31 22:38:10,943 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-01-31 22:38:15,638 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:38:15] "GET /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 22:38:15,709 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:38:15] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 -
+2019-01-31 22:38:15,710 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:38:15] "GET /static/css/bulma.css HTTP/1.1" 304 -
+2019-01-31 22:38:15,733 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:38:15] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 22:38:19,119 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:38:19] "POST /login?next=%2F HTTP/1.1" 302 -
+2019-01-31 22:38:19,153 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:38:19] "GET / HTTP/1.1" 200 -
+2019-01-31 22:38:19,254 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:38:19] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 22:38:19,273 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:38:19] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:38:19,291 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:38:19] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:38:19,311 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:38:19] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:38:25,633 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:38:25] "GET / HTTP/1.1" 302 -
+2019-01-31 22:38:25,658 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:38:25] "GET /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 22:38:28,928 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:38:28] "POST /login?next=%2F HTTP/1.1" 302 -
+2019-01-31 22:38:28,957 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:38:28] "GET / HTTP/1.1" 200 -
+2019-01-31 22:38:29,101 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:38:29] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:38:29,116 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:38:29] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:38:29,129 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:38:29] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:39:30,800 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:39:30] "GET / HTTP/1.1" 200 -
+2019-01-31 22:39:30,968 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:39:30] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:39:30,979 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:39:30] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:39:30,988 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:39:30] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:40:10,027 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:10] "GET / HTTP/1.1" 200 -
+2019-01-31 22:40:10,085 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:10] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 -
+2019-01-31 22:40:10,085 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:10] "GET /static/css/bulma.css HTTP/1.1" 304 -
+2019-01-31 22:40:10,108 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:10] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 22:40:10,126 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:10] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:40:10,142 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:10] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:40:10,158 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:10] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:40:18,072 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:18] "GET / HTTP/1.1" 200 -
+2019-01-31 22:40:18,139 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:18] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 -
+2019-01-31 22:40:18,139 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:18] "GET /static/css/bulma.css HTTP/1.1" 304 -
+2019-01-31 22:40:18,171 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:18] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 22:40:18,187 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:18] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:40:18,213 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:18] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:40:18,230 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:18] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:40:20,203 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:20] "GET / HTTP/1.1" 200 -
+2019-01-31 22:40:20,274 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:20] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 -
+2019-01-31 22:40:20,274 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:20] "GET /static/css/bulma.css HTTP/1.1" 304 -
+2019-01-31 22:40:20,304 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:20] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 22:40:20,321 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:20] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:40:20,343 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:20] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:40:20,359 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:20] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:40:39,315 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:39] "GET / HTTP/1.1" 200 -
+2019-01-31 22:40:39,379 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:39] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 -
+2019-01-31 22:40:39,380 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:39] "GET /static/css/bulma.css HTTP/1.1" 304 -
+2019-01-31 22:40:39,401 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:39] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 22:40:39,433 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:39] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:40:39,454 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:39] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:40:39,475 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:39] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:40:44,417 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:44] "GET / HTTP/1.1" 200 -
+2019-01-31 22:40:44,482 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:44] "GET /static/css/font-awesome.min.css HTTP/1.1" 304 -
+2019-01-31 22:40:44,484 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:44] "GET /static/css/bulma.css HTTP/1.1" 304 -
+2019-01-31 22:40:44,503 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:44] "GET /favicon.ico HTTP/1.1" 404 -
+2019-01-31 22:40:44,533 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:44] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:40:44,551 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:44] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:40:44,569 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:40:44] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:42:29,810 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:42:29] "GET / HTTP/1.1" 200 -
+2019-01-31 22:42:29,988 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:42:29] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:42:30,029 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:42:30] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:42:30,042 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:42:30] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:43:23,708 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:43:23] "GET / HTTP/1.1" 200 -
+2019-01-31 22:43:23,861 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:43:23] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:43:23,873 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:43:23] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:43:23,886 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:43:23] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:43:38,060 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:43:38] "GET / HTTP/1.1" 200 -
+2019-01-31 22:43:38,209 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:43:38] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:43:38,220 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:43:38] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:43:38,232 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:43:38] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:44:50,530 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:44:50] "GET / HTTP/1.1" 200 -
+2019-01-31 22:44:50,680 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:44:50] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:44:50,692 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:44:50] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:44:50,700 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:44:50] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:45:58,376 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:45:58] "GET / HTTP/1.1" 200 -
+2019-01-31 22:45:58,521 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:45:58] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:45:58,533 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:45:58] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:45:58,547 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:45:58] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:47:18,796 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:47:18] "GET / HTTP/1.1" 200 -
+2019-01-31 22:47:18,945 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:47:18] "GET /static/fonts/fontawesome-webfont.woff2?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:47:18,954 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:47:18] "GET /static/fonts/fontawesome-webfont.woff?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:47:18,961 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:47:18] "GET /static/fonts/fontawesome-webfont.ttf?v=4.7.0 HTTP/1.1" 404 -
+2019-01-31 22:49:06,463 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:49:06] "GET / HTTP/1.1" 200 -
+2019-01-31 22:49:31,640 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:49:31] "GET / HTTP/1.1" 200 -
+2019-01-31 22:49:50,426 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:49:50] "GET / HTTP/1.1" 200 -
+2019-01-31 22:50:12,963 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:50:12] "GET / HTTP/1.1" 200 -
+2019-01-31 22:50:44,190 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:50:44] "GET / HTTP/1.1" 200 -
+2019-01-31 22:51:01,543 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:51:01] "GET / HTTP/1.1" 200 -
+2019-01-31 22:51:14,843 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:51:14] "GET / HTTP/1.1" 200 -
+2019-01-31 22:51:23,931 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:51:23] "GET / HTTP/1.1" 200 -
+2019-01-31 22:51:33,490 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:51:33] "GET / HTTP/1.1" 200 -
+2019-01-31 22:51:49,624 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:51:49] "GET / HTTP/1.1" 200 -
+2019-01-31 22:52:07,215 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:52:07] "GET / HTTP/1.1" 200 -
+2019-01-31 22:52:22,626 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:52:22] "GET / HTTP/1.1" 200 -
+2019-01-31 22:52:33,239 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:52:33] "GET / HTTP/1.1" 200 -
+2019-01-31 22:52:54,654 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:52:54] "GET / HTTP/1.1" 200 -
+2019-01-31 22:53:25,195 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:53:25] "GET / HTTP/1.1" 200 -
+2019-01-31 22:53:49,397 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:53:49] "GET / HTTP/1.1" 200 -
+2019-01-31 22:55:15,661 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:55:15] "GET / HTTP/1.1" 200 -
+2019-01-31 22:55:41,429 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:55:41] "GET / HTTP/1.1" 200 -
+2019-01-31 22:55:52,360 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:55:52] "GET / HTTP/1.1" 200 -
+2019-01-31 22:56:07,492 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:56:07] "GET / HTTP/1.1" 200 -
+2019-01-31 22:56:37,928 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:56:37] "GET / HTTP/1.1" 200 -
+2019-01-31 22:57:28,866 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:57:28] "GET / HTTP/1.1" 200 -
+2019-01-31 22:58:23,515 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:58:23] "GET / HTTP/1.1" 200 -
+2019-01-31 22:58:46,372 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 22:58:46] "GET / HTTP/1.1" 200 -
+2019-01-31 23:00:59,912 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:00:59] "GET / HTTP/1.1" 200 -
+2019-01-31 23:01:42,780 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:01:42] "GET / HTTP/1.1" 200 -
+2019-01-31 23:02:11,968 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:02:11] "GET / HTTP/1.1" 200 -
+2019-01-31 23:03:37,768 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:03:37] "GET / HTTP/1.1" 200 -
+2019-01-31 23:03:53,496 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:03:53] "GET / HTTP/1.1" 200 -
+2019-01-31 23:04:29,248 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:04:29] "GET / HTTP/1.1" 200 -
+2019-01-31 23:04:47,184 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:04:47] "GET / HTTP/1.1" 200 -
+2019-01-31 23:05:06,955 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:05:06] "GET / HTTP/1.1" 200 -
+2019-01-31 23:05:19,395 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:05:19] "GET / HTTP/1.1" 200 -
+2019-01-31 23:05:45,617 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:05:45] "GET / HTTP/1.1" 200 -
+2019-01-31 23:06:21,860 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:06:21] "GET / HTTP/1.1" 200 -
+2019-01-31 23:07:04,698 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:07:04] "GET / HTTP/1.1" 200 -
+2019-01-31 23:07:26,134 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:07:26] "GET / HTTP/1.1" 200 -
+2019-01-31 23:07:29,143 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:07:29] "GET /search_by_title HTTP/1.1" 404 -
+2019-01-31 23:08:45,030 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:08:45] "GET / HTTP/1.1" 200 -
+2019-01-31 23:09:44,171 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:09:44] "GET / HTTP/1.1" 200 -
+2019-01-31 23:10:03,138 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:10:03] "GET / HTTP/1.1" 200 -
+2019-01-31 23:10:13,670 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:10:13] "GET / HTTP/1.1" 200 -
+2019-01-31 23:10:53,720 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:10:53] "GET / HTTP/1.1" 200 -
+2019-01-31 23:10:56,114 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:10:56] "GET / HTTP/1.1" 200 -
+2019-01-31 23:11:46,152 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:11:46] "GET / HTTP/1.1" 200 -
+2019-01-31 23:12:10,433 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:12:10] "GET / HTTP/1.1" 200 -
+2019-01-31 23:12:51,776 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:12:51] "GET / HTTP/1.1" 200 -
+2019-01-31 23:13:27,831 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:13:27] "GET / HTTP/1.1" 500 -
+2019-01-31 23:13:27,877 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:13:27] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2019-01-31 23:13:27,878 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:13:27] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2019-01-31 23:13:27,888 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:13:27] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2019-01-31 23:13:27,998 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:13:27] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2019-01-31 23:13:28,184 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:13:28] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-31 23:13:28,271 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:13:28] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2019-01-31 23:13:32,166 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:13:32] "GET /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 23:13:39,740 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:13:39] "GET /login?next=%2F HTTP/1.1" 200 -
+2019-01-31 23:13:46,061 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:13:46] "POST /login?next=%2F HTTP/1.1" 302 -
+2019-01-31 23:13:46,089 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:13:46] "GET / HTTP/1.1" 200 -
+2019-01-31 23:13:47,700 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:13:47] "GET /search_by_title HTTP/1.1" 404 -
+2019-01-31 23:57:20,302 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:57:20] "GET / HTTP/1.1" 200 -
+2019-01-31 23:57:21,164 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:57:21] "GET / HTTP/1.1" 200 -
+2019-01-31 23:57:21,362 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:57:21] "GET / HTTP/1.1" 200 -
+2019-01-31 23:57:21,534 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:57:21] "GET / HTTP/1.1" 200 -
+2019-01-31 23:57:21,691 - werkzeug - INFO - 127.0.0.1 - - [31/Jan/2019 23:57:21] "GET / HTTP/1.1" 200 -

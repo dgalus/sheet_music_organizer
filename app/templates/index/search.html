@@ -1,0 +1,65 @@
+{% extends "layout.html" %}
+{% block title %}{{ _("Search music sheets") }}{% endblock %}
+{% block content %}
+
+
+<div class="tile is-ancestor">
+  <div class="tile is-parent">
+    <div class="tile is-child box">
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-6">
+          <a href="/search_by_title">
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-danger">
+                <center><p class="subtitle">{{ _("Search by title") }}</p></center>
+              </article>
+            </div>
+            </a>
+        </div>
+
+        <div class="tile is-vertical is-6">
+          <a href="/search_by_category">
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-warning">
+                <center><p class="subtitle">{{ _("Search by category") }}</p></center>
+              </article>
+            </div>
+          </a>
+        </div>
+      </div>
+
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-6">
+          <a href="/search_by_instrument">
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-primary">
+                <center><p class="subtitle">{{ _("Search by instrument") }}</p></center>
+              </article>
+            </div>
+          </a>
+        </div>
+
+        <div class="tile is-vertical is-6">
+          <a href="/advanced_search">
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-light">
+                <center><p class="subtitle">{{ _("Advanced search") }}</p></center>
+              </article>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+{% endblock %}
+
+
+
+
+
+
+

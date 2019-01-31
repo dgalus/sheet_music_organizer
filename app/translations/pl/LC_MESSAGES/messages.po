@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-31 22:01+0100\n"
+"POT-Creation-Date: 2019-01-31 23:57+0100\n"
 "PO-Revision-Date: 2019-01-31 18:53+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: pl\n"
@@ -77,17 +77,37 @@ msgstr "Potwierdzenie hasła użytkownika administracyjnego"
 msgid "Save"
 msgstr "Zapisz"
 
-#: app/forms/user.py:4 app/templates/user/login.html:21
+#: app/forms/user.py:4
 msgid "Username"
 msgstr "Nazwa użytkownika"
 
-#: app/forms/user.py:5 app/templates/user/login.html:26
+#: app/forms/user.py:5
 msgid "Password"
 msgstr "Hasło"
 
-#: app/forms/user.py:6 app/templates/user/login.html:30
+#: app/forms/user.py:6
 msgid "Login"
 msgstr "Zaloguj"
+
+#: app/templates/index/search.html:2
+msgid "Search music sheets"
+msgstr "Wyszukiwarka nut"
+
+#: app/templates/index/search.html:14
+msgid "Search by title"
+msgstr "Szukaj po tytule"
+
+#: app/templates/index/search.html:24
+msgid "Search by category"
+msgstr "Szukaj po kategorii"
+
+#: app/templates/index/search.html:36
+msgid "Search by instrument"
+msgstr "Szukaj po instrumencie"
+
+#: app/templates/index/search.html:46
+msgid "Advanced search"
+msgstr "Wyszukiwanie zaawansowane"
 
 #: app/templates/install/install.html:25
 msgid "Installation"

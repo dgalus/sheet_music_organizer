@@ -46,5 +46,9 @@ users = []
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
 
+def render_t(*args, **kwargs):
+    title = json.load(open("app/config/app.json"))["app_name"]
+    return render_template(*args, **kwargs, title=title)
+
 from app.forms import *
 from app.controllers import *

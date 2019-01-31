@@ -6,7 +6,7 @@ def login():
     title = json.load(open("app/config/app.json"))["app_name"] or "Sheet music organizer"
     if form.validate_on_submit():
         username = escape(form.user.data)
-        password = escape(form.user.password)
+        password = escape(form.password.data)
         user = User.query.filter(User.username == username).first()
         if user is not None:
             if bc.check_password_hash(user.password, password):

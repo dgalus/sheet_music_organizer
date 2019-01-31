@@ -5,4 +5,4 @@ from .. import *
 @app.route('/search', methods=['GET', 'POST'])
 @login_required
 def search():
-    return "zalogowany"
+    return render_t("index/search.html")
