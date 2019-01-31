@@ -1,0 +1,44 @@
+from flask import Flask, Response, redirect, url_for, request, session, abort, render_template, send_file, escape, flash
+from flask_login import LoginManager, UserMixin, login_required, login_user, logout_user, current_user
+from flask_wtf import FlaskForm
+from wtforms import StringField, PasswordField, SubmitField, BooleanField, FileField, SelectField
+from wtforms.validators import DataRequired, InputRequired, Length, URL, NumberRange, ValidationError, EqualTo
+from flask_sqlalchemy import SQLAlchemy
+from flask_bcrypt import Bcrypt
+from werkzeug.utils import secure_filename
+from sqlalchemy import and_, or_
+import logging, logging.config
+import json
+import datetime
+import os
+import re
+import uuid
+import yaml
+
+ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'bmp', 'tiff', 'tif', 'gif', 'pdf', 'doc', 'docx'])
+
+SLIDE_UPLOAD_PATH = "app/static/files/"
+
+app = Flask(__name__)
+app.config.from_object('config')
+bc = Bcrypt(app)
+
+logging.config.dictConfig(yaml.load(open('app/config/logging.conf')))
+
+login_manager = LoginManager()
+login_manager.init_app(app)
+login_manager.login_view = 'login'
+login_manager.login_message = None
+login_manager.session_protection = "strong"
+
+db = SQLAlchemy(app)
+from app.models import *
+from .utils import *
+db.create_all()
+users = []
+
+def allowed_file(filename):
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+from app.forms import *
+from app.controllers import *
