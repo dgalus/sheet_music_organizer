@@ -1,0 +1,40 @@
+{% extends "admin_layout.html" %}
+{% block title %}{{ _("Admin Users") }}{% endblock %}
+{% block content %}
+
+          <div class="card events-card">
+            <header class="card-header">
+              <p class="card-header-title">
+                {{ _("Admin Users") }} &nbsp;
+                <a class="button is-link is-small" href="/admin/user/add">{{ _("Add") }}</a>
+              </p>
+            </header>
+            <div class="card-table">
+              <div class="content">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>{{ _("Display name") }}</th>
+                      <th>{{ _("Username") }}</th>
+                      <th>{{ _("Actions") }}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for u in users: %}
+                    <tr>
+                      <td>{{ u.display_name }}</td>
+                      <td>{{ u.username }}</td>
+                      <td>
+                        <a href="/admin/user/edit/{{ u.public_id }}" class="button is-success is-small">{{ _("Modify") }}</a>
+                        <a href="/admin/user/deactivate/{{ u.public_id }}" class="button is-danger is-small">{{ _("Deactivate") }}</a>
+                      </td>
+                    </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+
+{% endblock %}

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-01 13:50+0100\n"
+"POT-Creation-Date: 2019-02-01 14:56+0100\n"
 "PO-Revision-Date: 2019-01-31 18:53+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: pl\n"
@@ -78,7 +78,7 @@ msgstr "Potwierdzenie hasła użytkownika administracyjnego"
 msgid "Save"
 msgstr "Zapisz"
 
-#: app/forms/user.py:4
+#: app/forms/user.py:4 app/templates/admin/users.html:18
 msgid "Username"
 msgstr "Nazwa użytkownika"
 
@@ -118,6 +118,7 @@ msgstr "Kategorie"
 msgid "Admin Instruments"
 msgstr "Instrumenty"
 
+#: app/templates/admin/users.html:2 app/templates/admin/users.html:8
 #: app/templates/admin_layout.html:46
 msgid "Admin Users"
 msgstr "Użytkownicy"
@@ -129,6 +130,26 @@ msgstr "Panel administratora"
 #: app/templates/admin/index.html:7
 msgid "Events"
 msgstr "Wydarzenia"
+
+#: app/templates/admin/users.html:9
+msgid "Add"
+msgstr "Dodaj"
+
+#: app/templates/admin/users.html:17
+msgid "Display name"
+msgstr "Nazwa wyświetlana"
+
+#: app/templates/admin/users.html:19
+msgid "Actions"
+msgstr "Akcje"
+
+#: app/templates/admin/users.html:28
+msgid "Modify"
+msgstr "Zmień"
+
+#: app/templates/admin/users.html:29
+msgid "Deactivate"
+msgstr "Deaktywuj"
 
 #: app/templates/index/search.html:2
 msgid "Search music sheets"

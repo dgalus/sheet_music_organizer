@@ -4,4 +4,5 @@ from app import *
 @login_required
 @require_is_admin
 def admin_users():
-    return "admin users"
+    users = User.query.all()
+    return render_t("admin/users.html", users=users)
