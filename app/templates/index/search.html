@@ -9,17 +9,25 @@
             <header class="card-header">
               <p class="card-header-title">{{ _("Search by title") }}</p>
             </header>
-            <div class="card-content">
-              <div class="content">
-                <div class="control has-icons-left has-icons-right">
-                  <input class="input is-large" type="text" placeholder="">
-                  <span class="icon is-medium is-left">
-                    <i class="fa fa-search"></i>
-                  </span>
+            <form action="/search_by_title" method="post">
+
+              {{ form.hidden_tag() }}
+
+              <div class="card-content">
+                <div class="content">
+                  <div class="control has-icons-left has-icons-right">
+                    {{ form.search_field(class="input is-large") }}
+                    <span class="icon is-medium is-left">
+                      <i class="fa fa-search"></i>
+                    </span>
+                  </div>
                 </div>
+                <center>
+                  {{ form.submit(class="button is-medium is-primary") }}
+                  &nbsp;<a class="button is-medium is-info" href="#">{{ _("Advanced search") }}</a>
+                </center>
               </div>
-              <center><a class="button is-medium is-primary" href="#">{{ _("Search") }}</a>&nbsp;<a class="button is-medium is-info" href="#">{{ _("Advanced search") }}</a></center>
-            </div>
+            </form>
           </div>
         </div>
       </div>
@@ -30,19 +38,19 @@
             <div class="tile is-ancestor has-text-centered">
               <div class="tile is-parent">
                 <article class="tile is-child box">
-                  <p class="title">123</p>
+                  <p class="title">{{ titles_count }}</p>
                   <p class="subtitle">{{ _("Titles") }}</p>
                 </article>
               </div>
               <div class="tile is-parent">
                 <article class="tile is-child box">
-                  <p class="title">4</p>
+                  <p class="title">{{ categories_count }}</p>
                   <p class="subtitle">{{ _("Categories") }}</p>
                 </article>
               </div>
               <div class="tile is-parent">
                 <article class="tile is-child box">
-                  <p class="title">20</p>
+                  <p class="title">{{ users_count }}</p>
                   <p class="subtitle">{{ _("Users") }}</p>
                 </article>
               </div>
