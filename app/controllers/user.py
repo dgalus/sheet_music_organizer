@@ -15,20 +15,20 @@ def login():
                     if u.id == user.id:
                         exists = True
                         break
-                us = UserLogin(user.id, user.username, user.display_name)
+                us = UserLogin(user.id, user.username, user.display_name, user.is_admin)
                 if not exists:
                     users.append(us)
                 login_user(us, force=True)
                 return redirect("/")
-            return render_template('user/login.html', form=form, title=title)
-        return render_template('user/login.html', form=form, title=title)
+            return render_t('user/login.html', form=form)
+        return render_t('user/login.html', form=form)
     else:
-        return render_template('user/login.html', form=form, title=title)
+        return render_t('user/login.html', form=form)
 
 @app.route('/logout')
 def logout():
     logout_user()
-    return render_template('user/login.html')
+    return redirect("/")
 
 @login_manager.user_loader
 def load_user(user_id):

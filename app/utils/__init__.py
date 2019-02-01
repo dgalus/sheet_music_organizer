@@ -1,1 +1,1 @@
-from .user import UserLogin
+from .user import UserLogin, require_is_admin
