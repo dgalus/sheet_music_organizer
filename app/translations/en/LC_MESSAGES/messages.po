@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-31 23:57+0100\n"
+"POT-Creation-Date: 2019-02-01 11:32+0100\n"
 "PO-Revision-Date: 2019-01-31 18:54+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -42,7 +42,8 @@ msgstr "Software was successfully installed!"
 msgid "Failed to install software!"
 msgstr "Failed to install software!"
 
-#: app/forms/index.py:4 app/forms/index.py:5
+#: app/forms/index.py:4 app/forms/index.py:5 app/templates/index/search.html:21
+#: app/templates/layout.html:27
 msgid "Search"
 msgstr "Search"
 
@@ -88,27 +89,48 @@ msgstr "Password"
 msgid "Login"
 msgstr "Login"
 
+#: app/templates/layout.html:28
+msgid "Admin"
+msgstr "Admin"
+
+#: app/templates/layout.html:29
+msgid "Logout"
+msgstr "Logout"
+
 #: app/templates/index/search.html:2
 msgid "Search music sheets"
 msgstr "Search music sheets"
 
-#: app/templates/index/search.html:14
+#: app/templates/index/search.html:10
 msgid "Search by title"
 msgstr "Search by title"
 
-#: app/templates/index/search.html:24
-msgid "Search by category"
-msgstr "Search by category"
-
-#: app/templates/index/search.html:36
-msgid "Search by instrument"
-msgstr "Search by instrument"
-
-#: app/templates/index/search.html:46
+#: app/templates/index/search.html:21
 msgid "Advanced search"
 msgstr "Advanced search"
+
+#: app/templates/index/search.html:34
+msgid "Titles"
+msgstr "Titles"
+
+#: app/templates/index/search.html:40
+msgid "Categories"
+msgstr "Categories"
+
+#: app/templates/index/search.html:46
+msgid "Users"
+msgstr "Users"
 
 #: app/templates/install/install.html:25
 msgid "Installation"
 msgstr "Installation"
+
+#~ msgid "Search by category"
+#~ msgstr "Search by category"
+
+#~ msgid "Search by instrument"
+#~ msgstr "Search by instrument"
+
+#~ msgid "Advanced search"
+#~ msgstr "Advanced search"
 

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-01-31 23:57+0100\n"
+"POT-Creation-Date: 2019-02-01 11:32+0100\n"
 "PO-Revision-Date: 2019-01-31 18:53+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: pl\n"
@@ -43,7 +43,8 @@ msgstr "Pomyślnie zainstalowano oprogramowanie!"
 msgid "Failed to install software!"
 msgstr "Instalacja oprogramowania się nie powiodła!"
 
-#: app/forms/index.py:4 app/forms/index.py:5
+#: app/forms/index.py:4 app/forms/index.py:5 app/templates/index/search.html:21
+#: app/templates/layout.html:27
 msgid "Search"
 msgstr "Wyszukaj"
 
@@ -89,27 +90,48 @@ msgstr "Hasło"
 msgid "Login"
 msgstr "Zaloguj"
 
+#: app/templates/layout.html:28
+msgid "Admin"
+msgstr "Admin"
+
+#: app/templates/layout.html:29
+msgid "Logout"
+msgstr "Wyloguj"
+
 #: app/templates/index/search.html:2
 msgid "Search music sheets"
 msgstr "Wyszukiwarka nut"
 
-#: app/templates/index/search.html:14
+#: app/templates/index/search.html:10
 msgid "Search by title"
 msgstr "Szukaj po tytule"
 
-#: app/templates/index/search.html:24
-msgid "Search by category"
-msgstr "Szukaj po kategorii"
-
-#: app/templates/index/search.html:36
-msgid "Search by instrument"
-msgstr "Szukaj po instrumencie"
-
-#: app/templates/index/search.html:46
+#: app/templates/index/search.html:21
 msgid "Advanced search"
 msgstr "Wyszukiwanie zaawansowane"
+
+#: app/templates/index/search.html:34
+msgid "Titles"
+msgstr "Tytułów"
+
+#: app/templates/index/search.html:40
+msgid "Categories"
+msgstr "Kategorii"
+
+#: app/templates/index/search.html:46
+msgid "Users"
+msgstr "Użytkowników"
 
 #: app/templates/install/install.html:25
 msgid "Installation"
 msgstr "Instalacja"
+
+#~ msgid "Search by category"
+#~ msgstr "Szukaj po kategorii"
+
+#~ msgid "Search by instrument"
+#~ msgstr "Szukaj po instrumencie"
+
+#~ msgid "Advanced search"
+#~ msgstr "Wyszukiwanie zaawansowane"
 
