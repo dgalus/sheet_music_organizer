@@ -1,4 +1,4 @@
-from .. import *
+from app import *
 
 @app.route('/install', methods=['GET', 'POST'])
 def install():

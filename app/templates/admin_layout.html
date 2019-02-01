@@ -33,9 +33,22 @@
       </div>
     </nav>
 
+
     <div class="container">
       <div class="columns">
-        <div class="column is-12">
+        <div class="column is-3 ">
+          <aside class="menu is-hidden-mobile">
+            <ul class="menu-list">
+              <li><a href="/admin">{{ _("Admin Home") }}</a></li>
+              <li><a href="/admin/titles">{{ _("Admin Titles") }}</a></li>
+              <li><a href="/admin/categories">{{ _("Admin Categories") }}</a></li>
+              <li><a href="/admin/instruments">{{ _("Admin Instruments") }}</a></li>
+              <li><a href="/admin/users">{{ _("Admin Users") }}</a></li>
+            </ul>
+          </aside>
+        </div>
+
+        <div class="column is-9">
           <section class="hero is-info welcome is-small">
             <div class="hero-body">
               <div class="container">
@@ -44,27 +57,13 @@
               </div>
             </div>
           </section>
+
+          <div style="margin: 30px"></div>
+
+          {% block content %}{% endblock %}
+
         </div>
       </div>
-
-      <section class="section">
-        <div class="container">
-          {% with messages = get_flashed_messages(with_categories=True) %}
-            {% if messages %}
-                <section class="section" style="padding-top: 0px">
-                {% for category, message in messages %}
-                    <div class="notification {{ category }}">
-                        {{ message }}
-                    </div>
-                {% endfor %}
-                </section>
-            {% endif %}
-          {% endwith %}
-        </div>
-      </section>
-
-      {% block content %}{% endblock %}
-
     </div>
 
     <section class="hero is-info" style="height: 20px; margin-top: 70px;">

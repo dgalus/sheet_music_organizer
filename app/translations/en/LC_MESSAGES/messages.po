@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-01 11:32+0100\n"
+"POT-Creation-Date: 2019-02-01 13:50+0100\n"
 "PO-Revision-Date: 2019-01-31 18:54+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -42,7 +42,7 @@ msgstr "Software was successfully installed!"
 msgid "Failed to install software!"
 msgstr "Failed to install software!"
 
-#: app/forms/index.py:4 app/forms/index.py:5 app/templates/index/search.html:21
+#: app/forms/index.py:4 app/forms/index.py:5 app/templates/admin_layout.html:27
 #: app/templates/layout.html:27
 msgid "Search"
 msgstr "Search"
@@ -89,13 +89,45 @@ msgstr "Password"
 msgid "Login"
 msgstr "Login"
 
-#: app/templates/layout.html:28
+#: app/templates/admin_layout.html:28 app/templates/layout.html:28
 msgid "Admin"
 msgstr "Admin"
 
-#: app/templates/layout.html:29
+#: app/templates/admin_layout.html:29 app/templates/layout.html:29
+msgid "My account"
+msgstr "My account"
+
+#: app/templates/admin_layout.html:30 app/templates/layout.html:30
 msgid "Logout"
 msgstr "Logout"
+
+#: app/templates/admin_layout.html:42
+msgid "Admin Home"
+msgstr "Admin Home"
+
+#: app/templates/admin_layout.html:43
+msgid "Admin Titles"
+msgstr "Titles"
+
+#: app/templates/admin_layout.html:44
+msgid "Admin Categories"
+msgstr "Categories"
+
+#: app/templates/admin_layout.html:45
+msgid "Admin Instruments"
+msgstr "Instruments"
+
+#: app/templates/admin_layout.html:46
+msgid "Admin Users"
+msgstr "Users"
+
+#: app/templates/admin/index.html:2
+msgid "Administrators panel"
+msgstr "Administrators panel"
+
+#: app/templates/admin/index.html:7
+msgid "Events"
+msgstr "Events"
 
 #: app/templates/index/search.html:2
 msgid "Search music sheets"
@@ -105,19 +137,19 @@ msgstr "Search music sheets"
 msgid "Search by title"
 msgstr "Search by title"
 
-#: app/templates/index/search.html:21
+#: app/templates/index/search.html:27
 msgid "Advanced search"
 msgstr "Advanced search"
 
-#: app/templates/index/search.html:34
+#: app/templates/index/search.html:42
 msgid "Titles"
 msgstr "Titles"
 
-#: app/templates/index/search.html:40
+#: app/templates/index/search.html:48
 msgid "Categories"
 msgstr "Categories"
 
-#: app/templates/index/search.html:46
+#: app/templates/index/search.html:54
 msgid "Users"
 msgstr "Users"
 

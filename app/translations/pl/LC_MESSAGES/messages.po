@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-01 11:32+0100\n"
+"POT-Creation-Date: 2019-02-01 13:50+0100\n"
 "PO-Revision-Date: 2019-01-31 18:53+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: pl\n"
@@ -43,7 +43,7 @@ msgstr "Pomyślnie zainstalowano oprogramowanie!"
 msgid "Failed to install software!"
 msgstr "Instalacja oprogramowania się nie powiodła!"
 
-#: app/forms/index.py:4 app/forms/index.py:5 app/templates/index/search.html:21
+#: app/forms/index.py:4 app/forms/index.py:5 app/templates/admin_layout.html:27
 #: app/templates/layout.html:27
 msgid "Search"
 msgstr "Wyszukaj"
@@ -90,13 +90,45 @@ msgstr "Hasło"
 msgid "Login"
 msgstr "Zaloguj"
 
-#: app/templates/layout.html:28
+#: app/templates/admin_layout.html:28 app/templates/layout.html:28
 msgid "Admin"
 msgstr "Admin"
 
-#: app/templates/layout.html:29
+#: app/templates/admin_layout.html:29 app/templates/layout.html:29
+msgid "My account"
+msgstr "Moje konto"
+
+#: app/templates/admin_layout.html:30 app/templates/layout.html:30
 msgid "Logout"
 msgstr "Wyloguj"
+
+#: app/templates/admin_layout.html:42
+msgid "Admin Home"
+msgstr "Strona główna panelu"
+
+#: app/templates/admin_layout.html:43
+msgid "Admin Titles"
+msgstr "Tytuły"
+
+#: app/templates/admin_layout.html:44
+msgid "Admin Categories"
+msgstr "Kategorie"
+
+#: app/templates/admin_layout.html:45
+msgid "Admin Instruments"
+msgstr "Instrumenty"
+
+#: app/templates/admin_layout.html:46
+msgid "Admin Users"
+msgstr "Użytkownicy"
+
+#: app/templates/admin/index.html:2
+msgid "Administrators panel"
+msgstr "Panel administratora"
+
+#: app/templates/admin/index.html:7
+msgid "Events"
+msgstr "Wydarzenia"
 
 #: app/templates/index/search.html:2
 msgid "Search music sheets"
@@ -106,19 +138,19 @@ msgstr "Wyszukiwarka nut"
 msgid "Search by title"
 msgstr "Szukaj po tytule"
 
-#: app/templates/index/search.html:21
+#: app/templates/index/search.html:27
 msgid "Advanced search"
 msgstr "Wyszukiwanie zaawansowane"
 
-#: app/templates/index/search.html:34
+#: app/templates/index/search.html:42
 msgid "Titles"
 msgstr "Tytułów"
 
-#: app/templates/index/search.html:40
+#: app/templates/index/search.html:48
 msgid "Categories"
 msgstr "Kategorii"
 
-#: app/templates/index/search.html:46
+#: app/templates/index/search.html:54
 msgid "Users"
 msgstr "Użytkowników"
 

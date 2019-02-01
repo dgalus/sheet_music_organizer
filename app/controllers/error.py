@@ -1,4 +1,4 @@
-from .. import *
+from app import *
 
 @app.errorhandler(401)
 def unauthorized(e):
