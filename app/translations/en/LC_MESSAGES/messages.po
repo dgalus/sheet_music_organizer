@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-01 14:56+0100\n"
+"POT-Creation-Date: 2019-02-02 00:33+0100\n"
 "PO-Revision-Date: 2019-01-31 18:54+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -113,7 +113,8 @@ msgstr "Titles"
 msgid "Admin Categories"
 msgstr "Categories"
 
-#: app/templates/admin_layout.html:45
+#: app/templates/admin/instruments.html:2
+#: app/templates/admin/instruments.html:8 app/templates/admin_layout.html:45
 msgid "Admin Instruments"
 msgstr "Instruments"
 
@@ -130,21 +131,29 @@ msgstr "Administrators panel"
 msgid "Events"
 msgstr "Events"
 
-#: app/templates/admin/users.html:9
+#: app/templates/admin/instruments.html:9 app/templates/admin/users.html:9
 msgid "Add"
 msgstr "Add"
+
+#: app/templates/admin/instruments.html:17
+msgid "Instrument"
+msgstr "Instrument"
+
+#: app/templates/admin/instruments.html:18 app/templates/admin/users.html:19
+msgid "Actions"
+msgstr "Actions"
+
+#: app/templates/admin/instruments.html:26 app/templates/admin/users.html:28
+msgid "Modify"
+msgstr "Modify"
+
+#: app/templates/admin/instruments.html:27
+msgid "Delete"
+msgstr "Delete"
 
 #: app/templates/admin/users.html:17
 msgid "Display name"
 msgstr "Display name"
-
-#: app/templates/admin/users.html:19
-msgid "Actions"
-msgstr "Actions"
-
-#: app/templates/admin/users.html:28
-msgid "Modify"
-msgstr "Modify"
 
 #: app/templates/admin/users.html:29
 msgid "Deactivate"

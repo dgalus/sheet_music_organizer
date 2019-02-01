@@ -1,0 +1,38 @@
+{% extends "admin_layout.html" %}
+{% block title %}{{ _("Admin Instruments") }}{% endblock %}
+{% block content %}
+
+          <div class="card events-card">
+            <header class="card-header">
+              <p class="card-header-title">
+                {{ _("Admin Instruments") }} &nbsp;
+                <a class="button is-link is-small" href="/admin/instrument/add">{{ _("Add") }}</a>
+              </p>
+            </header>
+            <div class="card-table">
+              <div class="content">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th>{{ _("Instrument") }}</th>
+                      <th>{{ _("Actions") }}</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for i in instruemnts: %}
+                    <tr>
+                      <td>{{ i.name }}</td>
+                      <td>
+                        <a href="/admin/instrument/edit/{{ i.public_id }}" class="button is-success is-small">{{ _("Modify") }}</a>
+                        <a href="/admin/instrument/delete/{{ i.public_id }}" class="button is-danger is-small">{{ _("Delete") }}</a>
+                      </td>
+                    </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+
+
+{% endblock %}
