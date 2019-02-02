@@ -7,7 +7,7 @@ class InstrumentFile(db.Model):
     id = db.Column(db.Integer, primary_key=True, nullable=False)
     public_id = db.Column(db.String, unique=True, nullable=False)
     instrument_id = db.Column(db.Integer, db.ForeignKey('instrument.id'), nullable=False)
-    file_id = db.Column(db.Integer, db.ForeignKey('file.id'), nullable=False)
+    file_id = db.Column(db.Integer, db.ForeignKey('files.id'), nullable=False)
     created_by = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=False)
     created_on = db.Column(db.DateTime, nullable=False)
     modified_by = db.Column(db.Integer, db.ForeignKey('users.id'), nullable=True)
