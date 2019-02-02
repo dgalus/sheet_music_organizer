@@ -58,7 +58,17 @@
             </div>
           </section>
 
-          <div style="margin: 30px"></div>
+          <section class="section">
+              {% with messages = get_flashed_messages(with_categories=True) %}
+                {% if messages %}
+                    {% for category, message in messages %}
+                        <div class="notification {{ category }}">
+                            {{ message }}
+                        </div>
+                    {% endfor %}
+                {% endif %}
+              {% endwith %}
+          </section>
 
           {% block content %}{% endblock %}
 

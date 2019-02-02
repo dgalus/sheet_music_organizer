@@ -23,8 +23,19 @@
                     <tr>
                       <td>{{ i.name }}</td>
                       <td>
-                        <a href="/admin/instrument/edit/{{ i.public_id }}" class="button is-success is-small">{{ _("Modify") }}</a>
-                        <a href="/admin/instrument/delete/{{ i.public_id }}" class="button is-danger is-small">{{ _("Delete") }}</a>
+                        {% if i.is_deleted %}
+                          <form action="/admin/instrument/make_visible/{{ i.public_id}}" method="post">
+                            {{ make_visible_form.hidden_tag() }}
+                            <a href="/admin/instrument/edit/{{ i.public_id }}" class="button is-success is-small">{{ _("Modify") }}</a>
+                            {{ make_visible_form.submit(class="button is-small is-warning") }}
+                          </form>
+                        {% else %}
+                          <form action="/admin/instrument/hide/{{ i.public_id}}" method="post">
+                            {{ hide_form.hidden_tag() }}
+                            <a href="/admin/instrument/edit/{{ i.public_id }}" class="button is-success is-small">{{ _("Modify") }}</a>
+                            {{ hide_form.submit(class="button is-small is-danger") }}
+                          </form>
+                        {% endif %}
                       </td>
                     </tr>
                     {% endfor %}

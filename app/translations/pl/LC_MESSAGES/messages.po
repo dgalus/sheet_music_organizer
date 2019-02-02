@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-02 15:07+0100\n"
+"POT-Creation-Date: 2019-02-02 19:45+0100\n"
 "PO-Revision-Date: 2019-01-31 18:53+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: pl\n"
@@ -43,13 +43,61 @@ msgstr "Pomyślnie zainstalowano oprogramowanie!"
 msgid "Failed to install software!"
 msgstr "Instalacja oprogramowania się nie powiodła!"
 
-#: app/forms/admin.py:4
+#: app/controllers/admin/instruments.py:24
+msgid "Successfully added instrument."
+msgstr "Pomyślnie dodano instrument."
+
+#: app/controllers/admin/instruments.py:27
+msgid "Failed to add instrument."
+msgstr "Nie udało się dodać instrumentu."
+
+#: app/controllers/admin/instruments.py:28
+msgid "Failed to add instrument!"
+msgstr "Nie udało się dodać instrumentu!"
+
+#: app/controllers/admin/instruments.py:50
+msgid "Successfully edited instrument."
+msgstr "Pomyślnie zmodyfikowano intrument."
+
+#: app/controllers/admin/instruments.py:53
+msgid "Failed to edit instrument."
+msgstr "Nie udało się zmodyfikować instrumentu."
+
+#: app/controllers/admin/instruments.py:54
+msgid "Failed to edit instrument!"
+msgstr "Nie udało się zmodyfikować instrumentu."
+
+#: app/controllers/admin/instruments.py:73
+msgid "Instrument is hidden now."
+msgstr "Instrument jest teraz ukryty."
+
+#: app/controllers/admin/instruments.py:75
+msgid "Failed to hide instrument."
+msgstr "Nie udało się ukryć instrumentu."
+
+#: app/controllers/admin/instruments.py:76
+msgid "Failed to hide instrument!"
+msgstr "Nie udało się ukryć instrumentu!"
+
+#: app/controllers/admin/instruments.py:95
+msgid "Instrument is visible now."
+msgstr "Instrument jest teraz widoczny."
+
+#: app/controllers/admin/instruments.py:97
+msgid "Failed to make instrument visible."
+msgstr "Nie udało się zmienić widoczności instrumentu."
+
+#: app/controllers/admin/instruments.py:98
+msgid "Failed to make instrument visible!"
+msgstr "Nie udało się zmienić widoczności instrumentu!"
+
+#: app/forms/admin.py:4 app/forms/admin.py:8
 msgid "Instrument Name"
 msgstr "Nazwa Instrumentu"
 
-#: app/forms/admin.py:4 app/forms/index.py:4 app/forms/install.py:4
-#: app/forms/install.py:5 app/forms/install.py:6 app/forms/install.py:7
-#: app/forms/user.py:4 app/forms/user.py:5
+#: app/forms/admin.py:4 app/forms/admin.py:8 app/forms/index.py:4
+#: app/forms/install.py:4 app/forms/install.py:5 app/forms/install.py:6
+#: app/forms/install.py:7 app/forms/user.py:4 app/forms/user.py:5
 msgid "Field required"
 msgstr "Pole wymagane"
 
@@ -57,6 +105,18 @@ msgstr "Pole wymagane"
 #: app/templates/admin/users.html:9
 msgid "Add"
 msgstr "Dodaj"
+
+#: app/forms/admin.py:9
+msgid "Edit"
+msgstr "Zmodyfikuj"
+
+#: app/forms/admin.py:12
+msgid "Hide"
+msgstr "Ukryj"
+
+#: app/forms/admin.py:15
+msgid "Make Visible"
+msgstr "Pokaż"
 
 #: app/forms/index.py:4 app/forms/index.py:5 app/templates/admin_layout.html:27
 #: app/templates/layout.html:27
@@ -146,6 +206,11 @@ msgstr "Wydarzenia"
 msgid "Add Instrument"
 msgstr "Dodaj instrument"
 
+#: app/templates/admin/instrument_edit.html:2
+#: app/templates/admin/instrument_edit.html:8
+msgid "Edit Instrument"
+msgstr "Zmodyfikuj instrument"
+
 #: app/templates/admin/instruments.html:17
 msgid "Instrument"
 msgstr "Instrument"
@@ -154,13 +219,10 @@ msgstr "Instrument"
 msgid "Actions"
 msgstr "Akcje"
 
-#: app/templates/admin/instruments.html:26 app/templates/admin/users.html:28
+#: app/templates/admin/instruments.html:29
+#: app/templates/admin/instruments.html:35 app/templates/admin/users.html:28
 msgid "Modify"
 msgstr "Zmień"
-
-#: app/templates/admin/instruments.html:27
-msgid "Delete"
-msgstr "Usuń"
 
 #: app/templates/admin/users.html:17
 msgid "Display name"
@@ -197,13 +259,4 @@ msgstr "Użytkowników"
 #: app/templates/install/install.html:25
 msgid "Installation"
 msgstr "Instalacja"
-
-#~ msgid "Search by category"
-#~ msgstr "Szukaj po kategorii"
-
-#~ msgid "Search by instrument"
-#~ msgstr "Szukaj po instrumencie"
-
-#~ msgid "Advanced search"
-#~ msgstr "Wyszukiwanie zaawansowane"
 

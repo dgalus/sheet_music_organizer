@@ -1,0 +1,8 @@
+2019-02-02 19:41:45,371 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/admin/instruments.py', reloading
+2019-02-02 19:41:45,419 - werkzeug - INFO -  * Restarting with stat
+2019-02-02 19:41:45,843 - werkzeug - WARNING -  * Debugger is active!
+2019-02-02 19:41:45,843 - werkzeug - INFO -  * Debugger PIN: 143-215-283
+2019-02-02 19:42:14,194 - werkzeug - INFO -  * Detected change in '/home/avc/github/sheet_music_organizer/app/controllers/admin/instruments.py', reloading
+2019-02-02 19:42:14,241 - werkzeug - INFO -  * Restarting with stat
+2019-02-02 19:42:14,662 - werkzeug - WARNING -  * Debugger is active!
+2019-02-02 19:42:14,662 - werkzeug - INFO -  * Debugger PIN: 143-215-283

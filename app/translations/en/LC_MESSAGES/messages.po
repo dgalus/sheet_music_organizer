@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-02 15:07+0100\n"
+"POT-Creation-Date: 2019-02-02 19:45+0100\n"
 "PO-Revision-Date: 2019-01-31 18:54+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -42,13 +42,61 @@ msgstr "Software was successfully installed!"
 msgid "Failed to install software!"
 msgstr "Failed to install software!"
 
-#: app/forms/admin.py:4
+#: app/controllers/admin/instruments.py:24
+msgid "Successfully added instrument."
+msgstr "Successfully added instrument."
+
+#: app/controllers/admin/instruments.py:27
+msgid "Failed to add instrument."
+msgstr "Failed to add instrument."
+
+#: app/controllers/admin/instruments.py:28
+msgid "Failed to add instrument!"
+msgstr "Failed to add instrument!"
+
+#: app/controllers/admin/instruments.py:50
+msgid "Successfully edited instrument."
+msgstr "Successfully edited instrument."
+
+#: app/controllers/admin/instruments.py:53
+msgid "Failed to edit instrument."
+msgstr "Failed to edit instrument."
+
+#: app/controllers/admin/instruments.py:54
+msgid "Failed to edit instrument!"
+msgstr "Failed to edit instrument!"
+
+#: app/controllers/admin/instruments.py:73
+msgid "Instrument is hidden now."
+msgstr "Instrument is hidden now."
+
+#: app/controllers/admin/instruments.py:75
+msgid "Failed to hide instrument."
+msgstr "Failed to hide instrument."
+
+#: app/controllers/admin/instruments.py:76
+msgid "Failed to hide instrument!"
+msgstr "Failed to hide instrument!"
+
+#: app/controllers/admin/instruments.py:95
+msgid "Instrument is visible now."
+msgstr "Instrument is visible now."
+
+#: app/controllers/admin/instruments.py:97
+msgid "Failed to make instrument visible."
+msgstr "Failed to make instrument visible."
+
+#: app/controllers/admin/instruments.py:98
+msgid "Failed to make instrument visible!"
+msgstr "Failed to make instrument visible!"
+
+#: app/forms/admin.py:4 app/forms/admin.py:8
 msgid "Instrument Name"
 msgstr "Instrument Name"
 
-#: app/forms/admin.py:4 app/forms/index.py:4 app/forms/install.py:4
-#: app/forms/install.py:5 app/forms/install.py:6 app/forms/install.py:7
-#: app/forms/user.py:4 app/forms/user.py:5
+#: app/forms/admin.py:4 app/forms/admin.py:8 app/forms/index.py:4
+#: app/forms/install.py:4 app/forms/install.py:5 app/forms/install.py:6
+#: app/forms/install.py:7 app/forms/user.py:4 app/forms/user.py:5
 msgid "Field required"
 msgstr "Field required"
 
@@ -56,6 +104,18 @@ msgstr "Field required"
 #: app/templates/admin/users.html:9
 msgid "Add"
 msgstr "Add"
+
+#: app/forms/admin.py:9
+msgid "Edit"
+msgstr "Edit"
+
+#: app/forms/admin.py:12
+msgid "Hide"
+msgstr "Hide"
+
+#: app/forms/admin.py:15
+msgid "Make Visible"
+msgstr "Make Visible"
 
 #: app/forms/index.py:4 app/forms/index.py:5 app/templates/admin_layout.html:27
 #: app/templates/layout.html:27
@@ -145,6 +205,11 @@ msgstr "Events"
 msgid "Add Instrument"
 msgstr "Add Instrument"
 
+#: app/templates/admin/instrument_edit.html:2
+#: app/templates/admin/instrument_edit.html:8
+msgid "Edit Instrument"
+msgstr "Edit Instrument"
+
 #: app/templates/admin/instruments.html:17
 msgid "Instrument"
 msgstr "Instrument"
@@ -153,13 +218,10 @@ msgstr "Instrument"
 msgid "Actions"
 msgstr "Actions"
 
-#: app/templates/admin/instruments.html:26 app/templates/admin/users.html:28
+#: app/templates/admin/instruments.html:29
+#: app/templates/admin/instruments.html:35 app/templates/admin/users.html:28
 msgid "Modify"
 msgstr "Modify"
-
-#: app/templates/admin/instruments.html:27
-msgid "Delete"
-msgstr "Delete"
 
 #: app/templates/admin/users.html:17
 msgid "Display name"
@@ -196,13 +258,4 @@ msgstr "Users"
 #: app/templates/install/install.html:25
 msgid "Installation"
 msgstr "Installation"
-
-#~ msgid "Search by category"
-#~ msgstr "Search by category"
-
-#~ msgid "Search by instrument"
-#~ msgstr "Search by instrument"
-
-#~ msgid "Advanced search"
-#~ msgstr "Advanced search"
 
