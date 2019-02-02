@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-02-02 00:33+0100\n"
+"POT-Creation-Date: 2019-02-02 15:07+0100\n"
 "PO-Revision-Date: 2019-01-31 18:54+0100\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -42,16 +42,25 @@ msgstr "Software was successfully installed!"
 msgid "Failed to install software!"
 msgstr "Failed to install software!"
 
+#: app/forms/admin.py:4
+msgid "Instrument Name"
+msgstr "Instrument Name"
+
+#: app/forms/admin.py:4 app/forms/index.py:4 app/forms/install.py:4
+#: app/forms/install.py:5 app/forms/install.py:6 app/forms/install.py:7
+#: app/forms/user.py:4 app/forms/user.py:5
+msgid "Field required"
+msgstr "Field required"
+
+#: app/forms/admin.py:5 app/templates/admin/instruments.html:9
+#: app/templates/admin/users.html:9
+msgid "Add"
+msgstr "Add"
+
 #: app/forms/index.py:4 app/forms/index.py:5 app/templates/admin_layout.html:27
 #: app/templates/layout.html:27
 msgid "Search"
 msgstr "Search"
-
-#: app/forms/index.py:4 app/forms/install.py:4 app/forms/install.py:5
-#: app/forms/install.py:6 app/forms/install.py:7 app/forms/user.py:4
-#: app/forms/user.py:5
-msgid "Field required"
-msgstr "Field required"
 
 #: app/forms/install.py:4
 msgid "App name"
@@ -131,9 +140,10 @@ msgstr "Administrators panel"
 msgid "Events"
 msgstr "Events"
 
-#: app/templates/admin/instruments.html:9 app/templates/admin/users.html:9
-msgid "Add"
-msgstr "Add"
+#: app/templates/admin/instrument_add.html:2
+#: app/templates/admin/instrument_add.html:8
+msgid "Add Instrument"
+msgstr "Add Instrument"
 
 #: app/templates/admin/instruments.html:17
 msgid "Instrument"
