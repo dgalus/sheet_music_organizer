@@ -5,7 +5,7 @@ import random
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 
 SQLALCHEMY_TRACK_MODIFICATIONS = False
-SQLALCHEMY_DATABASE_URI = 'postgres://smo:smo@127.0.0.1:5432/smo'
+SQLALCHEMY_DATABASE_URI = 'postgres://smo:smo@127.0.0.1:5434/smo'
 DATABASE_CONNECT_OPTIONS = {}
 
 THREADS_PER_PAGE = 2

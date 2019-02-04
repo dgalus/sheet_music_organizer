@@ -1,0 +1,44 @@
+{% extends "admin_layout.html" %}
+{% block title %}{{ _("Edit Category") }}{% endblock %}
+{% block content %}
+
+          <div class="card events-card">
+            <header class="card-header">
+              <p class="card-header-title">
+                {{ _("Edit Category") }} &nbsp;
+              </p>
+            </header>
+
+            <div class="card-content">
+              <div class="content">
+                <form action="#" method="post">
+
+                  {{ form.hidden_tag() }}
+
+                  <div class="field">
+                    {{ form.name.label(class="label") }}
+                    {% if form.name.errors %}
+                      <p class="control">
+                        {{ form.name(class="input is-danger") }}
+                      </p>
+                      {% for error in form.name.errors %}
+                        <p class="help is-danger">{{ error }}</p>
+                      {% endfor %}
+                    {% else %}
+                      <p class="control">
+                        {{ form.name(class="input") }}
+                      </p>
+                    {% endif %}
+                  </div>
+
+                  <center>
+                      {{ form.submit(class="button is-medium is-info") }}
+                  </center>
+
+                </form>
+              </div>
+            </div>
+          </div>
+
+
+{% endblock %}
